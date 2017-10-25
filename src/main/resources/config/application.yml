@@ -1,0 +1,10 @@
+## Spring boot server config ##
+server:
+ contextPath: /image-processing-service/1.0
+ port: 9002
+ 
+config-api:
+ url: http://composite-dq01.cars.com/config-api/1.0/rest/config
+
+
+
