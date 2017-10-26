@@ -29,6 +29,6 @@ public class SwaggerConfig {
 	public ApiInfo getApiInfo() {
 		return new ApiInfo("image-processing-service REST API", "Used for image processing", "1.0",
 				"Terms of service URL (May be a confluence page)",
-				new Contact("n", "", "bparthasarathy@cars.com"), "Cars Internal License", "Link to Cars Internal License");
+				new Contact("n", "", ""), "", "");
 	}
 }
